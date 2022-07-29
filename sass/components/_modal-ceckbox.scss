@@ -1,0 +1,86 @@
+.modal-policy {
+  margin-top: 20px;
+}
+
+.checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.policy-box {
+  display: inline-block;
+  width: 12px;
+  height: 11px;
+  border: 2px solid $logoColor;
+  border-radius: 2px;
+  margin-right: 8px;
+
+  transition-property: background-color, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox:checked + .policy-box {
+  background-color: $primaryColor;
+  background-image: url(/svg/galochka.svg);
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  background-size: contain;
+  background-origin: border-box;
+  border-color: $primaryColor;
+}
+
+.checkbox:focus + .policy-box {
+  border-color: $primaryColor;
+}
+
+.modal .policy-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $primarytextColor;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.715;
+  letter-spacing: 0.03em;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.policy-link {
+  display: inline-block;
+  text-decoration-line: underline;
+  color: $primaryColor;
+}
+.modal-btn {
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-bottom: 35px;
+  color: $secondarytextColor;
+  background-color: $primaryColor;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  width: 200px;
+  height: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  border: none;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+}

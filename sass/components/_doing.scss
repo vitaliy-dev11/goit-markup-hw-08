@@ -1,0 +1,18 @@
+.work-subjekt {
+  @extend %work-subjekt;
+}
+.work-items {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .work-items {
+    display: none;
+  }
+
+  .work-subjekt {
+    display: none;
+  }
+}

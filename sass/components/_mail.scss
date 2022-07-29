@@ -1,0 +1,54 @@
+.mail-link {
+  color: $primarytextColor;
+  text-decoration: none;
+  margin-right: 0px;
+  margin-left: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  margin-right: 20px;
+}
+
+.mail-link {
+  margin-left: 10px;
+}
+.mail-item :hover {
+  color: $primaryColor;
+}
+.p-mail {
+  margin-left: 10px;
+}
+.envenlope-icon {
+  margin-right: 10px;
+}
+.envenlope-icon {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.kontakt-items .mail-link:hover,
+.kontakt-items .mail-link:focus {
+  color: $primaryColor;
+  fill: $primaryColor;
+  transition: 250ms;
+}
+.foot-logo {
+  padding-top: 75px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 100px;
+}
+.mail-link {
+  display: flex;
+}
+.mail-item {
+  margin-top: 10px;
+}
+.envenlope-icon {
+  margin-left: 10px;
+  vertical-align: middle;
+}

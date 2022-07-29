@@ -1,0 +1,197 @@
+.list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+}
+@media screen and (max-width: 480px) {
+  .list{
+    display: block;
+  }
+
+  
+}
+
+.menu_kontakt-trade{
+  color: $primarytradeColor;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  }
+
+  .menu_portfolio-trade{
+    color: $primarytradeColor;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  }
+
+  .menu_studio-trade{
+  color: $primarytradeColor;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  }
+
+  .menu_studio-trade:hover{
+    color: $primaryColor;
+  }
+
+  .menu_portfolio-trade:hover{
+    color: $primaryColor;
+  }
+  .menu_kontakt-trade:hover{
+    color: $primaryColor;
+  }
+
+.menu_studio-item{
+  margin-bottom: 32px;
+}
+
+.menu_portfolio-item{
+  margin-bottom: 32px;
+}
+
+.menu_kontakt-item{
+  margin-bottom: 302px;
+}
+
+.menu_mail-link{
+  text-align: center;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 40px;
+
+
+letter-spacing: 0.02em;
+
+color: #2196F3;
+}
+
+.menu_mobile{
+  margin-bottom: 32px;
+}
+
+.menu_e-mail-link{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #757575;
+}
+
+.menu_enveloper{
+  margin-bottom: 64px;
+}
+
+.mail_link{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  width: 357px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+  
+}
+
+.menu_link{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.02em;
+color: #2196F3;
+text-decoration: none;
+
+}
+
+.link_item{
+  border-right: rgba(33, 33, 33, 0.2) solid 1px;
+  padding-right: 10px;
+}
+.linkedin_link{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.02em;
+color: #2196F3;
+text-decoration: none;
+}
+
+.studio-item {
+  margin-left: 90px;
+}
+.studio-item :visited {
+  color: $primaryColor;
+}
+.studio-trade {
+  color: $primaryColor;
+  position: relative;
+}
+.portfolio-item :hover {
+  color: $primaryColor;
+  transition: all 250ms;
+}
+.kontakt-item :hover {
+  color: $primaryColor;
+  transition: 250ms;
+}
+.studio-trade::after {
+  position: absolute;
+  top: 48px;
+  content: "";
+  width: 100%;
+  height: 4px;
+  bottom: 0px;
+  left: 0px;
+  background-color: $primaryColor;
+  border-radius: 2px;
+}
+
+.kontakt-item {
+  margin-right: 200px;
+}
+
+.portfolio-item {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.kontakt-items {
+  display: flex;
+}
+.studio-trade {
+  color: $primarytradeColor;
+  text-decoration: none;
+}
+.portfolio-trade {
+  color: $primarytradeColor;
+  text-decoration: none;
+}
+.kontakt-trade {
+  color: $primarytradeColor;
+  text-decoration: none;
+}

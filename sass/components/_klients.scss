@@ -1,0 +1,215 @@
+.klient-title {
+  margin-top: 94px;
+  text-align: center;
+  margin-bottom: 74px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+@media screen and (max-width: 480px){
+  .klient-title {
+    margin-top: 94px;
+    text-align: center;
+    margin-bottom: 74px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+ 
+ 
+}
+.klients {
+  display: flex;
+}
+.t-section {
+  max-width: 480px;
+  height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .f-klient {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    max-width: 210px;
+    height: 92px;
+    padding-top: 23px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+  
+    fill: #afb1b8;
+    
+  }
+    .s-klient {
+      display: flex;
+      justify-content: center;
+      padding-top: 23px;
+      max-width: 210px;
+      height: 92px;
+      border: 1px solid #afb1b8;
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin-left: 15px;
+      fill: #afb1b8;
+    }
+    
+    .t-klient {
+      display: flex;
+      justify-content: center;
+      padding-top: 23px;
+      width: 210px;
+      height: 92px;
+      border: 1px solid #afb1b8;
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin-left: 15px;
+      fill: #afb1b8;
+    }
+    
+    .fo-klient {
+      display: flex;
+      justify-content: center;
+      padding-top: 23px;
+      width: 210px;
+      height: 92px;
+      border: 1px solid #afb1b8;
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin-left: 15px;
+      fill: #afb1b8;
+    }
+    
+    .fi-klient {
+      display: flex;
+      justify-content: center;
+      padding-top: 23px;
+      width: 210px;
+      height: 92px;
+      border: 1px solid #afb1b8;
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin-left: 15px;
+      fill: #afb1b8;
+    }
+    
+    .si-klient {
+      display: flex;
+      justify-content: center;
+      width: 210px;
+      height: 92px;
+      padding-top: 23px;
+      border: 1px solid #afb1b8;
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin-left: 15px;
+    
+      fill: #afb1b8;
+    }
+
+}
+    
+  
+  .f-klient {
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 92px;
+    padding-top: 23px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+  
+    fill: #afb1b8;
+  }
+  
+  .s-klient {
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    width: 210px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 15px;
+    fill: #afb1b8;
+  }
+  
+  .t-klient {
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    width: 210px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 15px;
+    fill: #afb1b8;
+  }
+  
+  .fo-klient {
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    width: 210px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 15px;
+    fill: #afb1b8;
+  }
+  
+  .fi-klient {
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    width: 210px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 15px;
+    fill: #afb1b8;
+  }
+  
+  .si-klient {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 92px;
+    padding-top: 23px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 15px;
+  
+    fill: #afb1b8;
+  }
+  
+
+
+  
+
+@media screen and (max-width: 480px) {
+  .client-contaner {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 480px;
+  }
+  .klients {
+    display: inline-block;
+  }
+}

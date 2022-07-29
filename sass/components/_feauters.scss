@@ -1,0 +1,287 @@
+.antena-background {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  align-items: center;
+  justify-content: center;
+  margin-left: 90px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  margin-top: 94px;
+}
+
+@media screen and (max-width: 480px) {
+  .antena-background {
+    width: 350px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+
+.antena-icon {
+  margin-top: 1px;
+  margin-left: 10px;
+}
+.clock-icon {
+  margin-top: 1px;
+  margin-left: 10px;
+}
+.clock-background {
+  margin-left: 30px;
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  margin-top: 94px;
+}
+@media screen and (max-width: 480px) {
+  .clock-background {
+    max-width: 450px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+.diagram-background {
+  margin-left: 30px;
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  margin-top: 94px;
+}
+@media screen and (max-width: 768px) {
+  .diagram-background {
+    max-width: 450px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+.astronaut-background {
+  margin-left: 30px;
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  margin-right: 90px;
+  margin-top: 94px;
+}
+@media screen and (max-width: 480px) {
+  .astronaut-background {
+    max-width: 450px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+.subjekt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-right: 30px;
+  margin-left: 90px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 480px) {
+  .subjekt {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+}
+.tehnology-subjekt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-right: 90px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 480px) {
+  .tehnology-subjekt {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+}
+.plan-subjekt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 480px) {
+  .plan-subjekt {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+}
+.punkt-subjekt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 480px) {
+  .punkt-subjekt {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+}
+.first-text {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 30px;
+  margin-left: 90px;
+  margin-top: 10px;
+  margin-bottom: 94px;
+}
+
+@media screen and (max-width: 480px) {
+  .first-text {
+    margin-left: 0px;
+  }
+}
+.second-text {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 94px;
+}
+@media screen and (max-width: 480px) {
+  .second-text {
+    margin-left: 0px;
+  }
+}
+.third-text {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 94px;
+}
+@media screen and (max-width: 480px) {
+  .third-text {
+    margin-left: 0px;
+  }
+}
+.fourth-text {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 90px;
+  margin-top: 10px;
+  margin-bottom: 94px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 480px) {
+  .fourth-text {
+    margin-left: 0px;
+  }
+}
+.first-conteiner {
+  text-align: center;
+}
+.second-conteiner {
+  text-align: center;
+}
+
+.div-item {
+  display: flex;
+  margin-top: 94px;
+}
+.detal-items {
+  margin-bottom: 10px;
+}
+
+.items {
+  display: flex;
+}
+
+.developer-items {
+  display: flex;
+}
+
+@media screen and (max-width: 480px) {
+  .div-item {
+    display: block;
+  }
+
+  .items {
+    display: block;
+  }
+
+  .developer-items {
+    display: block;
+  }
+}
+
+.feauters-contaner {
+  padding-left: 15px;
+  padding-right: 15px;
+}

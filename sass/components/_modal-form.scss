@@ -1,0 +1,123 @@
+.modal-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: $primarytradeColor;
+  margin-top: 40px;
+}
+
+
+.f-input {
+  margin-top: 5px;
+  width: 418px;
+  height: 40px;
+  outline: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  // padding-left: 10px;
+  margin-bottom: 10px;
+  // padding-left: 40px;
+  
+}
+
+@media screen and (max-width: 480px){
+  .f-input{
+  width: 370px;
+ }
+ 
+}
+.f-input:focus {
+  transition: 250ms;
+  border-color: $primaryColor;
+  fill: $primaryColor;
+}
+.f-input:focus + .svg-lable {
+  fill: $primaryColor;
+  color: $primaryColor;
+  transition: 250ms;
+}
+
+.f-modal-svg :focus {
+  fill: $primaryColor;
+}
+.f-form {
+  display: block;
+  width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.first-label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: $primarytextColor;
+  margin-left: 34px;
+}
+.s-input {
+  outline: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  // padding-left: 10px;
+  width: 448px;
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: $primarytextColor;
+}
+
+@media screen and (max-width: 480px){
+  .s-input{
+  width: 370px;
+  }
+}
+.s-input {
+  padding-top: 16px;
+  padding-bottom: 90px;
+}
+.s-input:focus {
+  transition: 250ms;
+  border-color: $primaryColor;
+  fill: $primaryColor;
+}
+.form-input {
+  margin-left: 40px;
+}
+.f-modal-svg {
+  position: absolute;
+  top: 17px;
+  left: 42px;
+  vertical-align: middle;
+  transition-property: fill;
+}
+.s-modal-svg {
+  position: absolute;
+  top: 19px;
+  left: 42px;
+  vertical-align: middle;
+}
+.t-modal-svg {
+  position: absolute;
+  top: 17px;
+  left: 42px;
+  vertical-align: middle;
+}
+
+
+  .f-form{
+    position: relative;
+  }
+

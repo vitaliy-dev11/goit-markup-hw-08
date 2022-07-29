@@ -1,0 +1,25 @@
+.doing-thumb {
+  width: 370px;
+  height: 70px;
+  background-color: rgb(47, 48, 58);
+  position: absolute;
+  top: 1610px;
+  opacity: 0.8;
+  transition: $Transition;
+  overflow: hidden;
+  transform: translateY(100%);
+}
+
+.p-thumb {
+  font-family: $primaryFont;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  opacity: 1;
+  color: $secondarytextColor;
+  padding-top: 27px;
+}

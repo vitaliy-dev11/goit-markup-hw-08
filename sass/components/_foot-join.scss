@@ -1,0 +1,82 @@
+.join {
+  margin-left: 70px;
+}
+
+@media screen  and (max-width: 480px){
+  .join {
+    margin-left: 0px;
+  }
+}
+
+.join-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $secondarytextColor;
+  margin-left: 5px;
+}
+@media screen and (max-width: 480px){
+  .join-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $secondarytextColor;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 60px;
+  }
+}
+
+.join-list {
+  display: flex;
+  fill: #fff;
+  margin-top: 20px;
+}
+
+@media screen and (max-width:480px){
+  .join-list {
+    display: flex;
+    fill: #fff;
+    margin-top: 20px;
+    justify-content: center;
+  }
+}
+
+.join-list :not(:last-child) {
+  margin-right: 10px;
+}
+
+.join-icon {
+  width: 20px;
+  height: 20px;
+  fill: $secondarytextColor;
+}
+
+.join-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.join-link:hover,
+.join-link:focus {
+  background-color: $primaryColor;
+  filter: $Filter;
+  transition: 250ms;
+}
+.join-icon :hover,
+.join-icon :focus {
+  fill: $secondarytextColor;
+}

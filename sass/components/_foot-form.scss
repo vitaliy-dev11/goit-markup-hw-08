@@ -1,0 +1,55 @@
+.foot-input {
+  background-color: #2f303a;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  width: 358px;
+  height: 50px;
+  padding-left: 20px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  outline: none;
+}
+
+
+@media screen and (max-width: 480px){
+  .foot-input{
+    width: 88%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.inp-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $secondarytextColor;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 480px){
+  .inp-text{
+    margin-top: 60px;
+    text-align: center;
+  }
+}
+
+.foot-form {
+  margin-left: 93px;
+}
+
+@media screen and (max-width: 480px){
+  .foot-form {
+    margin-left: 0px;
+    
+  }
+}
