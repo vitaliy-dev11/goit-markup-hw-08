@@ -14,7 +14,7 @@
 
 .f-input {
   margin-top: 5px;
-  width: 418px;
+  // width: 418px;
   height: 40px;
   outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -27,9 +27,19 @@
 
 @media screen and (max-width: 480px){
   .f-input{
-  width: 370px;
+  width: 100%;
+  
  }
  
+ .f-form {
+  width: 100%;
+  
+}
+
+.s-input{
+  width: 100%;
+  
+}
 }
 .f-input:focus {
   transition: 250ms;
@@ -45,12 +55,12 @@
 .f-modal-svg :focus {
   fill: $primaryColor;
 }
-.f-form {
-  display: block;
-  width: 370px;
-  margin-left: auto;
-  margin-right: auto;
-}
+// .f-form {
+//   display: block;
+//   width: 370px;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
 .first-label {
   font-family: "Roboto";
   font-style: normal;
@@ -66,7 +76,7 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   // padding-left: 10px;
-  width: 448px;
+  
 
   margin-top: 5px;
   margin-bottom: 10px;
@@ -79,11 +89,7 @@
   color: $primarytextColor;
 }
 
-@media screen and (max-width: 480px){
-  .s-input{
-  width: 370px;
-  }
-}
+
 .s-input {
   padding-top: 16px;
   padding-bottom: 90px;

@@ -18,7 +18,7 @@
   </head>
   <body>
      <header class="header">
-      <!-- <div class="contaner"> -->
+      <div class="second-head_container">
         <div class="head_container">
           
         <p class="logo">
@@ -27,8 +27,8 @@
         <div class="menu">
         <button class="menu-button is-open" type="button" aria-expanded="false" data-menu-button>
           <svg class="menu-svg">
-            <use class="icon_menu"  href="./images/symbol-defs.svg#icon-menu"></use>
-            <use class="icon_cross" href="./images/symbol-defs.svg#icon-close"></use>
+            <use class="icon_menu"  href="./images/symbol-defs.svg#icon-menu_40px"></use>
+            <use class="icon_cross" href="./images/symbol-defs.svg#icon-close_40px-1"></use>
           </svg>
         </button>
       </div>
@@ -292,9 +292,13 @@
             <div class="doing-thumb">
               <p class="p-thumb">Десктопные приложения</p>
            </div>
+           <!-- <picture>
+            <source  srcset="./desctop-images/app-desctop_img.jpg 1x, ./desctop-images/app-desctop_img@2x.jpg 2x,  ./desctop-images/app-desctop_img@3x.jpg 3x" media="(min-width: 1200px)">
+           </picture> -->
             <img
               class="peapl-item"
-              src="images/img(1).jpg"
+              srcset="./desctop-images/app-desctop_img.jpg 1x, ./desctop-images/app-desctop_img@2x.jpg 2x,  ./desctop-images/app-desctop_img@3x.jpg 3x"
+              src=""
               alt="человек програмирует на планшете"
               width="370"
               height="294"
@@ -306,7 +310,8 @@
            </div>
             <img
               class="sait-item"
-              src="images/img (2).jpg"
+              srcset="./desctop-images/mobile-desctop_img.jpg 1x, ./desctop-images/mobile-desctop_img@2x.jpg 2x,  ./desctop-images/mobile-desctop_img@3x.jpg 3x"
+              src=""
               alt="человек создает дизайн сайта"
               width="370"
               height="294"
@@ -318,7 +323,8 @@
            </div>
             <img
               class="color-item"
-              src="images/img (3).jpg"
+              srcset="./desctop-images/dithain-desctop_img.jpg 1x, ./desctop-images/dithain-desctop_img@2x.jpg 2x,  ./desctop-images/dithain-desctop_img@3x.jpg 3x"
+              src=""
               alt="человек смотрит на разние цвета"
               width="370"
               height="294"
@@ -334,13 +340,36 @@
         <div class="komand-warning">
           <ul>
             <li class="img-item">
-              <img
+              <!-- <picture>
+                <source srcset="./desctop-images/demianenko-desctop_img.jpg 1x, ./desctop-images/demianenko-desctop_img@2x.jpg 2x, ./desctop-images/demianenko-desctop_img@3x.jpg 3x" media="(min-width: 1200px)" />
+              </picture> -->
+              <picture>
+                <source
+                  srcset="./desctop-images/demianenko-desctop_img.jpg 1x, ./desctop-images/demianenko-desctop_img@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./tablet-images/demianenko-tab_img.jpg 1x, ./tablet-images/demianenko-tab_img@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./phone-images/img.jpg 1x, ./phone-images/img@2x.jpg 2x"
+                  media="(max-width: 480px)"
+                />
+                <img class="adaptive-images"
+                  src="./images/img.jpg"
+                  alt="фотография Игоря Демьяненко"
+                  width="270"
+                />
+              </picture>
+              
+              <!-- <img
                 class="Demianenko-img"
-                src="images/img (4).jpg"
+                srcset="./desctop-images/demianenko-desctop_img.jpg 1x, ./desctop-images/demianenko-desctop_img@2x.jpg 2x, ./desctop-images/demianenko-desctop_img@3x.jpg 3x"
                 alt="Игорь Демьяненко"
                 width="270"
                 height="260"
-              />
+              /> -->
               <div class="second-warning">
                 <p class="name-item">Игорь Демьяненко</p>
                 <p class="work-item">Product Designer</p>
@@ -438,13 +467,41 @@
           </ul>
           <ul>
             <li class="img-item">
-              <img
+              <picture>
+                <source
+                  srcset="
+                    ./desctop-images/repina-desctop_img.jpg 1x,
+                    ./desctop-images/repina-desctop_img@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                srcset="
+                  ./tablet-images/repina-tab_img.jpg 1x,
+                  ./tablet-images/repina-tab_img@2x.jpg 2x
+                "
+                  media="(min-width: 768px)"
+                />
+                <source
+                srcset="
+                  ./phone-images/repina-img.jpg 1x,
+                  ./phone-images/repina-img@2x.jpg 2x
+                "
+                  media="(max-width: 480px)"
+                />
+                <img class="adaptive-images"
+                  src="./images/img.jpg"
+                  alt="фотография Ольги Репиной"
+                  width="270"
+                />
+              </picture>
+              <!-- <img
                 class="Repina-img"
-                src="images/img (5).jpg"
+                src=""
                 alt="Ольга Репина"
                 width="270"
                 height="260"
-              />
+              /> -->
               <div class="third-warning">
                 <p class="name-item">Ольга Репина</p>
                 <p class="work-item">Frontend Developer</p>
@@ -542,13 +599,41 @@
           </ul>
           <ul>
             <li class="img-item">
-              <img
+              <picture>
+                <source
+                  srcset="
+                    ./desctop-images/tarasov-desctop_img.jpg 1x,
+                    ./desctop-images/tarasov-desctop_img@2.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                srcset="
+                  ./tablet-images/tarasov-tab_img.jpg 1x,
+                  ./tablet-images/tarasov-tab_img@2x.jpg 2x
+                "
+                  media="(min-width: 768px)"
+                />
+                <source
+                srcset="
+                  ./phone-images/tarasov-img.jpg 1x,
+                  ./phone-images/tarasov-img@2x.jpg 2x
+                "
+                  media="(max-width: 480px)"
+                />
+                <img class="adaptive-images"
+                  src="tarasov-desctop_img.jpg"
+                  alt="фотография Николая Тарасова"
+                  width="270"
+                />
+               </picture>
+              <!-- <img
                 class="Tarasow-img"
                 src="images/img (6).jpg"
                 alt="Николай Тарасов"
                 width="270"
                 height="260"
-              />
+              /> -->
               <div class="fourth-warning">
                 <p class="name-item">Николай Тарасов</p>
                 <p class="work-item">Marketing</p>
@@ -644,9 +729,35 @@
           </ul>
           <ul class="Ermakov-items">
             <li class="img-item">
-              <img class="Ermakow-img"
-              src="images/img (7).jpg" alt="Михаил Ермаков
-              width="270" height="260"/>
+              <picture>
+                <source
+                  srcset="
+                    ./desctop-images/ermacov-desctop_img.jpg 1x,
+                    ./desctop-images/ermacov-desctop_img@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                srcset="
+                  ./tablet-images/ermacov-tab_img.jpg 1x,
+                  ./tablet-images/ermacov-tab_img@2x.jpg 2x
+                "
+                  media="(min-width: 768px)"
+                />
+                <source
+                srcset="
+                  ./phone-images/ermakov-img.jpg 1x,
+                  ./phone-images/ermakov-img@2x.jpg 2x
+                "
+                  media="(max-width: 480px)"
+                />
+                <img class="adaptive-images"
+                  src="ermacov-desctop_img.jpg"
+                  alt="фотография Николая Тарасова"
+                  width="270"
+                />
+               </picture>
+              
               <div class="fivthe-warning">
                 <p class="name-item">Михаил Ермаков</p>
                 <p class="work-item">UI Designer</p>
@@ -998,6 +1109,7 @@
         </button>
       </div>
     </div>
+   
     
     <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>

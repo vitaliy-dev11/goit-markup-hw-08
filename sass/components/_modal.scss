@@ -28,18 +28,21 @@
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms linear;
   border-radius: 3px;
+  
 }
 
 @media screen and (max-width: 480px){
   .modal {
-  min-width: 95%;
+  min-width: 70%;
+  padding-left: 40px;
+  padding-right: 40px;
+  
   }
 
   .backdrop{
     padding-left: 15px;
     padding-right: 15px;
   }
-  
 }
 
 .modal-close {

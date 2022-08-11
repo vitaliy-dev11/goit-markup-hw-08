@@ -1,5 +1,5 @@
 .header {
-  height: 60px;
+  
   width: 100%;
   position: relative;
 }
@@ -16,8 +16,242 @@
   display: flex;
   align-items: center;
   margin-top: 30px;
-  margin-bottom: 30px;
+  
 }
 .contaner {
   display: flex;
+}
+
+
+// portfolio
+.kontakt-items {
+  display: flex;
+}
+
+@media screen and (min-width: 1200px){
+  .second-head_container{
+    display: flex;
+    align-items: center;
+  }
+}
+
+.navigation_container{
+  display: flex;
+}
+.portfolio-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  margin-left: 100px;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+}
+
+
+
+.list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+}
+.studio-item {
+  margin-left: 90px;
+}
+.kontakt-item {
+  margin-right: 200px;
+}
+.portfolio-item {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+}
+.portfolio-item :visited {
+  color: #2196f3;
+}
+.studio-item :hover {
+  color: #2196f3;
+  transition: 250ms;
+}
+.kontakt-item :hover {
+  color: #2196f3;
+  transition: 250ms;
+}
+
+.kontakt-items {
+  display: flex;
+}
+/* .mail-trade:hover {
+  color: #2196f3;
+}
+.tel-trade:hover {
+  color: #2196f3;
+} */
+
+.mail-trade {
+  color: #757575;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.tel-trade {
+  color: #757575;
+  text-decoration: none;
+}
+.envenlope-icon {
+  margin-right: 10px;
+}
+.telefone-icon {
+  margin-right: 10px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.portfolio-header {
+  padding-bottom: 26px;
+  padding-top: 30px;
+  border-bottom: 1px solid #eeeeee;
+}
+.warning-first {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+.studio-trade {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.portfolio-trade {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.portfolio-trade {
+  color: #2196f3;
+  position: relative;
+}
+.portfolio-trade::after {
+  position: absolute;
+  top: 48px;
+  content: "";
+  width: 100%;
+  height: 4px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #2196f3;
+  border-radius: 2px;
+}
+.kontakt-trade {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.f-logo {
+  color: #2196f3;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 145px;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.s-logo {
+  color: #000000;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 145px;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+/* .envelope-icon {
+  margin-right: 10px;
+}
+.kontakt-items :hover {
+  color: #2196f3;
+  fill: #2196f3;
+} */
+.contact-list {
+  display: flex;
+}
+
+.contact-list :not(:last-child) {
+  margin-right: 50px;
+}
+.contact-list .link {
+  font-family: "Roboto";
+  padding-bottom: 32px;
+  padding-top: 31px;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contact-list .link:hover,
+.contact-list .link:focus {
+  color: #2196f3;
+  fill: #2196f3;
+}
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.icon-envelope :hover,
+.icon-envelope :focus {
+  fill: #2196f3;
+}
+.icon-smartphone :hover,
+.icon-smartphone :focus {
+  fill: #2196f3;
+}
+ul {
+  list-style: none;
+}
+
+.head-items {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+}
+.kontakt-items {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
 }

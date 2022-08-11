@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href=".//css/main.min.css" />
         <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
@@ -19,19 +19,19 @@
  
   <body>
     
-    <header class="header">
+    <header class="portfolio-header">
       <!-- <div class="warning-first"> -->
-        <!-- <div class="head_container"> -->
+        <div class="second-head_container">
           <div class="head_container">
           
-          <p class="logo">
+          <p class="portfolio-logo">
             <span class="f-logo">Web</span><span class="s-logo">Studio</span>
           </p>
           <div class="menu">
             <button class="menu-button is-open" type="button" aria-expanded="false" data-menu-button>
               <svg class="menu-svg">
-                <use class="icon_menu"  href="./images/symbol-defs.svg#icon-menu"></use>
-                <use class="icon_cross" href="./images/symbol-defs.svg#icon-close"></use>
+                <use class="icon_menu"  href="./images/symbol-defs.svg#icon-menu_40px"></use>
+                <use class="icon_cross" href="./images/symbol-defs.svg#icon-close_40px-1"></use>
               </svg>
             </button>
           </div>
@@ -121,8 +121,8 @@
       </div>
       </header> 
     <main class="main">
-      <section class="hero-section">
-        <!-- <div class="button-items"> -->
+      <section class="portfolio-hero-section">
+        <div class="button-items">
         <ul class="button_items" >
           <li class="first-button">
             <button class="btn">Все</button>
@@ -143,6 +143,27 @@
           </li>
         </ul>
       </div>
+      <span class="button_span">
+      <ul class="button_items" >
+        <li class="first-button">
+          <button class="btn">Все</button>
+        </li>
+        <li class="second_button">
+          <button class="veb-btn">Веб-сайты</button>
+        </li>
+        <li class="third_button">
+          <button class="app-btn">Приложения</button>
+        </li>
+      </ul>
+      <ul class="second_button_items">
+        <li class="fourth_button">
+          <button class="dizain-btn">Дизайн</button>
+        </li>
+        <li class="fivthe_button">
+          <button class="marketing-btn">Маркетинг</button>
+        </li>
+      </ul>
+    </span>
       </section>
       <section>
         <div class="media_images">
@@ -150,8 +171,8 @@
         <ul class="tehno-items">
           <li>
 
-            <div class="div-thumb">
-              <p class="p-thumb">
+            <div class="portfolio-div-thumb">
+              <p class="portfolio-p-thumb">
               Ресурс предлагает комплексные<br>
                предложения с разным уровнем<br>
                функционала и сервисов. Все это<br>
@@ -160,7 +181,35 @@
                компании или частном лице.
                </p>
             </div>
-            <img class="firs-img" src="/images/img (8).jpg" alt="Технокряк" width="370" height="294" />
+            <picture>
+              <source
+                srcset="
+                  ./desctop-images/tehnokriak-desctop_img.jpg 1x,
+                  ./desctop-images/tehnokriak-desctop_img@2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+              srcset="
+                ./tablet-images/tehnokriak-tab_img.jpg 1x,
+                ./tablet-images/tehnokriak-tab_img@2x.jpg 2x
+              "
+                media="(min-width: 768px)"
+              />
+              <source
+              srcset="
+                ./phone-images/tehnokriak-img.jpg 1x,
+                ./phone-images/tehnokriak-img@2x.jpg 2x
+              "
+                media="(max-width: 480px)"
+              />
+              <img class="adaptive-images"
+                src="./desctop-images/tehnokriak-desctop_img.jpg"
+                alt="фотография Ольги Репиной"
+                width=""
+              />
+            </picture>
+            <!-- <img class="firs-img" src="/images/img (8).jpg" alt="Технокряк" width="370" height="294" /> -->
             
           </li>
           <li class="teh-item"><p>Технокряк</p></li>
@@ -168,8 +217,8 @@
           <li>
           </ul>
           <ul class="poster-items">
-              <div class="div-thumb">
-              <p class="p-thumb">
+              <div class="portfolio-div-thumb">
+              <p class="portfolio-p-thumb">
               Ресурс предлагает комплексные<br>
                предложения с разным уровнем<br>
                функционала и сервисов. Все это<br>
@@ -178,20 +227,48 @@
                компании или частном лице.
                </p>
             </div>
-            <img class="second-img"
+            <picture>
+              <source
+                srcset="
+                  ./desctop-images/poster-desctop_img.jpg 1x,
+                  ./desctop-images/poster-desctop_img.@2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+              srcset="
+                ./tablet-images/poster-tab_img.jpg 1x,
+                ./tablet-images/poster-tab_img@2x.jpg 2x
+              "
+                media="(min-width: 768px)"
+              />
+              <source
+              srcset="
+                ./phone-images/poster-img.jpg 1x,
+                ./phone-images/poster-img@2x.jpg 2x
+              "
+                media="(max-width: 480px)"
+              />
+              <img class="adaptive-images"
+                src="./desctop-images/poster-desctop_img.jpg"
+                alt="фотография Ольги Репиной"
+                width=""
+              />
+            </picture>
+            <!-- <img class="second-img"
               src="/images/img (9).jpg"
               alt="Постер New Orlean vs Golden Star"
               width="370"
               height="294"
-            />
+            /> -->
           </li>
           <li class="poster-item"><p>Постер New Orlean vs Golden Star</p></li>
           <li class="dizain-item"><p>Дизайн</p></li>
           <li>
           </ul>
           <ul class="sea-items">
-              <div class="div-thumb">
-              <p class="p-thumb">
+              <div class="portfolio-div-thumb">
+              <p class="portfolio-p-thumb">
               Ресурс предлагает комплексные<br>
                предложения с разным уровнем<br>
                функционала и сервисов. Все это<br>
@@ -200,12 +277,40 @@
                компании или частном лице.
                </p>
             </div>
-            <img class="third-img"
+            <picture>
+              <source
+                srcset="
+                  ./desctop-images/seafood-desctop_img.jpg 1x,
+                  ./desctop-images/seafood-desctop_img@2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+              srcset="
+                ./tablet-images/seafod-tab_img.jpg 1x,
+                ./tablet-images/repina-tab_img@2x.jpg 2x
+              "
+                media="(min-width: 768px)"
+              />
+              <source
+              srcset="
+                ./phone-images/seafod-img.jpg 1x,
+                ./phone-images/seafod-img@2x.jpg 2x
+              "
+                media="(max-width: 480px)"
+              />
+              <img class="adaptive-images"
+                src="./desctop-images/seafood-desctop_img.jpg"
+                alt="фотография Ольги Репиной"
+                width=""
+              />
+            </picture>
+            <!-- <img class="third-img"
               src="/images/img (10).jpg"
               alt="Ресторан Seafood"
               width="370"
               height="294"
-            />
+            /> -->
           </li>
           <li class="restoran-item"><p>Ресторан Seafood</p></li>
           <li class="sea-item"><p>Приложение</p></li>
@@ -214,8 +319,8 @@
             </div>
             <div class="second-warning">
             <ul class="prime-items">
-              <div class="div-thumb">
-              <p class="p-thumb">
+              <div class="portfolio-div-thumb">
+              <p class="portfolio-p-thumb">
               Ресурс предлагает комплексные<br>
                предложения с разным уровнем<br>
                функционала и сервисов. Все это<br>
@@ -224,20 +329,48 @@
                компании или частном лице.
                </p>
             </div>
-            <img class="fourth-img"
+            <picture>
+              <source
+                srcset="
+                  ./desctop-images/prime-desctop_img.jpg 1x,
+                  ./desctop-images/prime-desctop_img@2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+              srcset="
+                ./tablet-images/prime-tab_img.jpg 1x,
+                ./tablet-images/prime-tab_img@2x.jpg 2x
+              "
+                media="(min-width: 768px)"
+              />
+              <source
+              srcset="
+                ./phone-images/prime-img.jpg 1x,
+                ./phone-images/prime-img@2x.jpg 2x
+              "
+                media="(max-width: 480px)"
+              />
+              <img class="adaptive-images"
+                src="./desctop-images/prime-desctop_img.jpg"
+                alt="фотография Ольги Репиной"
+                width=""
+              />
+            </picture>
+            <!-- <img class="fourth-img"
               src="/images/img (11).jpg"
               alt="Проект Prime"
               width="370"
               height="294"
-            />
+            /> -->
           </li>
           <li class="progekt-item"><p>Проект Prime</p></li>
           <li class="marketing-item"><p>Маркетинг</p></li>
           <li>
             </ul>
             <ul class="boxes-items">
-              <div class="div-thumb">
-              <p class="p-thumb">
+              <div class="portfolio-div-thumb">
+              <p class="portfolio-p-thumb">
               Ресурс предлагает комплексные<br>
                предложения с разным уровнем<br>
                функционала и сервисов. Все это<br>
@@ -246,19 +379,42 @@
                компании или частном лице.
                </p>
             </div>
-            <img class="fivth-img"
-              src="/images/img (12).jpg"
-              alt="Проект Boxes"
-              width="370"
-              height="294"
-            />
+            <picture>
+              <source
+                srcset="
+                  ./desctop-images/boxes-desctop_img.jpg 1x,
+                  ./desctop-images/boxes-desctop_img@2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+              srcset="
+                ./tablet-images/boxes-tab_img.jpg 1x,
+                ./tablet-images/boxes-tab_img@2x.jpg 2x
+              "
+                media="(min-width: 768px)"
+              />
+              <source
+              srcset="
+                ./phone-images/boxes-img.jpg 1x,
+                ./phone-images/boxes-img@2x.jpg 2x
+              "
+                media="(max-width: 480px)"
+              />
+              <img class="adaptive-images"
+                src="./desctop-images/boxes-desctop_img.jpg"
+                alt=""
+                width=""
+              />
+            </picture>
+           
           </li>
           <li class="boxes-item"><p>Проект Boxes</p></li>
           <li class="prilogenie-item"><p>Приложение</p></li>
           </ul>
           <ul class="inspiration-items">
-             <div class="div-thumb">
-              <p class="p-thumb">
+             <div class="portfolio-div-thumb">
+              <p class="portfolio-p-thumb">
               Ресурс предлагает комплексные<br>
                предложения с разным уровнем<br>
                функционала и сервисов. Все это<br>
@@ -267,12 +423,40 @@
                компании или частном лице.
                </p>
             </div>
-            <img class="sixth-img"
+            <picture>
+              <source
+                srcset="
+                  ./desctop-images/inspiration-desctop_img.jpg 1x,
+                  ./desctop-images/inspiration-desctop_img@2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+              srcset="
+                ./tablet-images/inspiration-tab_img.jpg 1x,
+                ./tablet-images/inspiration-tab_img@2x.jpg 2x
+              "
+                media="(min-width: 768px)"
+              />
+              <source
+              srcset="
+                ./phone-images/Inspiration-img.jpg 1x,
+                ./phone-images/Inspiration-img@2x.jpg 2x
+              "
+                media="(max-width: 480px)"
+              />
+              <img class="adaptive-images"
+                src="./images/img.jpg"
+                alt="фотография Ольги Репиной"
+                width=""
+              />
+            </picture>
+            <!-- <img class="sixth-img"
               src="/images/img (13).jpg"
               alt="Inspiration has no Borders"
               width="370"
               height="294"
-            />
+            /> -->
           </li>
           <li class="inspiration-item"><p>Inspiration has no Borders</p></li>
           <li class="sait-item" ><p>Веб-сайт</p></li>
@@ -281,8 +465,8 @@
             </div>
               <div class="third-warning">
             <ul class="limited-items">
-            <div class="div-thumb">
-              <p class="p-thumb">
+            <div class="portfolio-div-thumb">
+              <p class="portfolio-p-thumb">
               Ресурс предлагает комплексные<br>
                предложения с разным уровнем<br>
                функционала и сервисов. Все это<br>
@@ -291,12 +475,46 @@
                компании или частном лице.
                </p>
             </div>
-            <img class="seventh-img"
+            <picture>
+              <source 
+              srcset="
+              ./desctop-images/limited-desctop_img.jpg 1x,
+              ./desctop-images/limited-desctop_img@2x.jpg 2x
+              "
+
+              media="(min-width: 1200px)"
+              />
+
+              <source 
+              srcset="
+              ./tablet-images/limited-tab_img.jpg 1x,
+              ./tablet-images/limited-tab_img@2x.jpg 2x
+              "
+
+              media="(min-width: 768px)"
+              />
+
+              <source 
+              srcset="
+              ./phone-images/Limited-img.jpg 1x,
+              ./phone-images/Limited-img@2x.jpg 2x
+              "
+
+              media="(max-width: 480px)"
+              />
+              
+              <img class="adaptive-images"
+                src="./images/img.jpg"
+                alt="фотография Ольги Репиной"
+                width=""
+              />
+            </picture>
+            <!-- <img class="seventh-img"
               src="/images/img (14).jpg"
               alt="Издание Limited Edition"
               width="370"
               height="294"
-            />
+            /> -->
           </li>
           <li class="limited-item"><p>Издание Limited Edition</p></li>
           <li class="edition-item"><p>Дизайн</p></li>
@@ -304,8 +522,8 @@
             </ul>
              
             <ul class="lab-items">
-              <div class="div-thumb">
-              <p class="p-thumb">
+              <div class="portfolio-div-thumb">
+              <p class="portfolio-p-thumb">
               Ресурс предлагает комплексные<br>
                предложения с разным уровнем<br>
                функционала и сервисов. Все это<br>
@@ -314,7 +532,41 @@
                компании или частном лице.
                </p>
             </div>
-            <img class="eighth-img" src="/images/img (15).jpg" alt="Проект LAB" width="370" height="294" />
+            <picture>
+              <source 
+              srcset="
+              ./desctop-images/LAB-desctop_img.jpg 1x,
+              ./desctop-images/LAB-desctop_img@2x.jpg 2x
+              "
+
+              media="(min-width: 1200px)"
+              />
+
+              <source 
+              srcset="
+              ./tablet-images/LAB-tab_img.jpg 1x,
+              ./tablet-images/LAB-tab_img@2x.jpg 2x
+              "
+
+              media="(min-width: 768px)"
+              />
+
+              <source 
+              srcset="
+              ./phone-images/LAB-img.jpg 1x,
+              ./phone-images/LAB-img@2x.jpg 2x
+              "
+
+              media="(max-width: 480px)"
+              />
+              
+              <img class="adaptive-images"
+                src="./images/img.jpg"
+                alt="фотография Ольги Репиной"
+                width=""
+              />
+            </picture>
+            <!-- <img class="eighth-img" src="/images/img (15).jpg" alt="Проект LAB" width="370" height="294" /> -->
           </li>
           <li class="lab-item"><p>Проект LAB</p></li>
           <li class="la-item"><p>Маркетинг</p></li>
@@ -322,8 +574,8 @@
           </ul>
           
              <ul class="groving-items">
-              <div class="div-thumb">
-              <p class="p-thumb">
+              <div class="portfolio-div-thumb">
+              <p class="portfolio-p-thumb">
               Ресурс предлагает комплексные<br>
                предложения с разным уровнем<br>
                функционала и сервисов. Все это<br>
@@ -332,12 +584,46 @@
                компании или частном лице.
                </p>
             </div>
-            <img class="ninth-img"
+            <picture>
+              <source 
+              srcset="
+              ./desctop-images/groving-desctop_img.jpg 1x,
+              ./desctop-images/groving-desctop_img@2x.jpg 2x
+              "
+
+              media="(min-width: 1200px)"
+              />
+
+              <source 
+              srcset="
+              ./tablet-images/Growing-tab_img.jpg 1x,
+              ./tablet-images/Growing-tab_img@2x.jpg 2x
+              "
+
+              media="(min-width: 768px)"
+              />
+
+              <source 
+              srcset="
+              ./phone-images/Growing-img.jpg 1x,
+              ./phone-images/Growing-img@2x.jpg 2x
+              "
+
+              media="(max-width: 480px)"
+              />
+              
+              <img class="adaptive-images"
+                src="./images/img.jpg"
+                alt="фотография Ольги Репиной"
+                width=""
+              />
+            </picture>
+            <!-- <img class="ninth-img"
               src="/images/img (16).jpg"
               alt="Growing Business"
               width="370"
               height="294"
-            />
+            /> -->
           </li>
           <li class="groving-item"><p>Growing Business</p></li>
           <li class="business-item"><p>Приложение</p></li>

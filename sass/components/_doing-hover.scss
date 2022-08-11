@@ -23,3 +23,67 @@
   color: $secondarytextColor;
   padding-top: 27px;
 }
+
+
+
+.portfolio-div-thumb {
+  width: 370px;
+  height: 294px;
+  background: rgba(33, 150, 243, 0.9);
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(50%);
+  transition: 0.7s;
+  display: inline-block;
+}
+.portfolio-div-thumb:hover {
+  width: 371px;
+  height: 294px;
+  background: rgba(33, 150, 243, 0.9);
+  position: absolute;
+  opacity: 0.9;
+  transition: 0.7s;
+  /* transition-duration: 250ms; */
+  transform: translateY(0);
+}
+.portfolio-p-thumb {
+  position: absolute;
+  left: 30px;
+  top: 63px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+@media screen and (max-width: 480px){
+  .portfolio-div-thumb {
+    width: 94%;
+    height: 294px;
+    background: rgba(33, 150, 243, 0.9);
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(50%);
+    transition: 0.7s;
+    display: inline-block;
+  }
+  .portfolio-div-thumb:hover {
+    width: 94%;
+    height: 294px;
+    background: rgba(33, 150, 243, 0.9);
+    position: absolute;
+    opacity: 0.9;
+    transition: 0.7s;
+     transition-duration: 250ms; 
+    transform: translateY(0);
+  }
+
+  
+}

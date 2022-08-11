@@ -54,7 +54,7 @@
   margin-bottom: 10px;
 }
 .work-item {
-  color: $backgraundColor;
+  color: #757575;;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -125,3 +125,376 @@
     padding-bottom: 30px;
   }
 }
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .adaptive-images{
+   width: 100%;
+  }
+}
+
+// portfolio
+
+.first-warning {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.second-warning {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.third-warning {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+@media screen and (max-Width: 480px){
+  .first-warning{
+    display: block;
+  }
+  
+  .second-warning{
+    display: block;
+  }
+
+  .third-warning{
+    display: block;
+  }
+}
+
+ 
+.tehno-items {
+  margin-right: 30px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.tehno-items:hover {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.poster-items {
+  margin-right: 30px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.poster-items:hover {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.sea-items {
+  margin-right: 0;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.sea-items:hover {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.prime-items {
+  margin-right: px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.prime-items:hover {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.boxes-items {
+  margin-left: 30px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.boxes-items:hover {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.inspiration-items {
+  margin-right: 0;
+  margin-left: 30px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.inspiration-items:hover {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.limited-items {
+  margin-right: 30px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.limited-items:hover {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.lab-items {
+  margin-right: 30px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.lab-items:hover {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.groving-items {
+  margin-right: 0px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  position: relative;
+}
+.groving-items:hover {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+// items
+
+.teh-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+
+.veb-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+.dizain-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+.poster-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.restoran-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.sea-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+.progekt-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.marketing-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+.boxes-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.prilogenie-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+.inspiration-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.sait-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+.limited-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.edition-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+.lab-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.la-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+.groving-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.business-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+
+@media screen and (max-width: 480px){
+  .ninth-img,
+  .eighth-img,
+  .seventh-img,
+  .sixth-img,
+  .fivth-img,
+  .fourth-img,
+  .third-img,
+  .second-img,
+  .firs-img{
+    width: 100%;
+    height: auto;
+  }
+
+  .tehno-items,
+  .poster-items,
+  .lab-items,
+  .limited-items
+  {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  
+  .boxes-items,
+  .inspiration-items
+  {
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  
+  .media_images{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .groving-items{
+    margin-bottom: 60px;
+    
+  }
+ }
