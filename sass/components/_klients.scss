@@ -11,205 +11,93 @@
   color: #212121;
 }
 
-@media screen and (max-width: 480px){
-  .klient-title {
-    margin-top: 94px;
-    text-align: center;
-    margin-bottom: 74px;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
-    color: #212121;
-  }
- 
- 
-}
-.klients {
+
+
+
+
+.clients__list {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+  fill: #afb1b8;
 }
-.t-section {
-  max-width: 480px;
+
+.clients__item {
+  // width: 170px;
+  height: 92px;
+  width: 100%;
+  flex-basis: calc((100% - 60px) / 2);
+  margin-top: 30px;
+  margin-left: 30px;
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 90px) / 3);
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 180px) / 6);
+  }
+
+  // &:not(:last-child) {
+  //   margin-right: 30px;
+  // }
+}
+
+.clients__link {
+  @extend %centredFlex;
+  width: 100%;
   height: 100%;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  transition-property: border-color, fill;
+  transition-duration: $duration;
+  transition-timing-function: $timing-fuction;
+
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+    fill: $accent-color;
+  }
 }
 
-@media screen and (max-width: 480px) {
-  .f-klient {
-    margin-left: 30px;
-    display: flex;
-    justify-content: center;
-    max-width: 210px;
-    height: 92px;
-    padding-top: 23px;
-    border: 1px solid #afb1b8;
-    box-sizing: border-box;
-    border-radius: 4px;
-  
-    fill: #afb1b8;
-    
-  }
-    .s-klient {
-      display: flex;
-      justify-content: center;
-      padding-top: 23px;
-      max-width: 210px;
-      height: 92px;
-      border: 1px solid #afb1b8;
-      box-sizing: border-box;
-      border-radius: 4px;
-      margin-left: 15px;
-      fill: #afb1b8;
-    }
-    
-    .t-klient {
-      display: flex;
-      justify-content: center;
-      padding-top: 23px;
-      width: 210px;
-      height: 92px;
-      border: 1px solid #afb1b8;
-      box-sizing: border-box;
-      border-radius: 4px;
-      margin-left: 15px;
-      fill: #afb1b8;
-    }
-    
-    .fo-klient {
-      display: flex;
-      justify-content: center;
-      padding-top: 23px;
-      width: 210px;
-      height: 92px;
-      border: 1px solid #afb1b8;
-      box-sizing: border-box;
-      border-radius: 4px;
-      margin-left: 15px;
-      fill: #afb1b8;
-    }
-    
-    .fi-klient {
-      display: flex;
-      justify-content: center;
-      padding-top: 23px;
-      width: 210px;
-      height: 92px;
-      border: 1px solid #afb1b8;
-      box-sizing: border-box;
-      border-radius: 4px;
-      margin-left: 15px;
-      fill: #afb1b8;
-    }
-    
-    .si-klient {
-      display: flex;
-      justify-content: center;
-      width: 210px;
-      height: 92px;
-      padding-top: 23px;
-      border: 1px solid #afb1b8;
-      box-sizing: border-box;
-      border-radius: 4px;
-      margin-left: 15px;
-    
-      fill: #afb1b8;
-    }
+.clients__logo {
+  fill: inherit;
 
+  &--logo1 {
+    width: 41px;
+    height: 46.7px;
+  }
+
+  &--logo2 {
+    width: 40px;
+    height: 52px;
+  }
+
+  &--logo3 {
+    width: 43.46px;
+    height: 41.18px;
+  }
+
+  &--logo4 {
+    width: 84.44px;
+    height: 40.62px;
+  }
+
+  &--logo5 {
+    width: 62.54px;
+    height: 45.43px;
+  }
+
+  &--logo6 {
+    width: 93.79px;
+    height: 43.93px;
+  }
 }
-    
-  
-  .f-klient {
-    margin-left: 15px;
-    display: flex;
-    justify-content: center;
-    width: 210px;
-    height: 92px;
-    padding-top: 23px;
-    border: 1px solid #afb1b8;
-    box-sizing: border-box;
-    border-radius: 4px;
-  
-    fill: #afb1b8;
-  }
-  
-  .s-klient {
-    display: flex;
-    justify-content: center;
-    padding-top: 23px;
-    width: 210px;
-    height: 92px;
-    border: 1px solid #afb1b8;
-    box-sizing: border-box;
-    border-radius: 4px;
-    margin-left: 15px;
-    fill: #afb1b8;
-  }
-  
-  .t-klient {
-    display: flex;
-    justify-content: center;
-    padding-top: 23px;
-    width: 210px;
-    height: 92px;
-    border: 1px solid #afb1b8;
-    box-sizing: border-box;
-    border-radius: 4px;
-    margin-left: 15px;
-    fill: #afb1b8;
-  }
-  
-  .fo-klient {
-    display: flex;
-    justify-content: center;
-    padding-top: 23px;
-    width: 210px;
-    height: 92px;
-    border: 1px solid #afb1b8;
-    box-sizing: border-box;
-    border-radius: 4px;
-    margin-left: 15px;
-    fill: #afb1b8;
-  }
-  
-  .fi-klient {
-    display: flex;
-    justify-content: center;
-    padding-top: 23px;
-    width: 210px;
-    height: 92px;
-    border: 1px solid #afb1b8;
-    box-sizing: border-box;
-    border-radius: 4px;
-    margin-left: 15px;
-    fill: #afb1b8;
-  }
-  
-  .si-klient {
-    display: flex;
-    justify-content: center;
-    width: 210px;
-    height: 92px;
-    padding-top: 23px;
-    border: 1px solid #afb1b8;
-    box-sizing: border-box;
-    border-radius: 4px;
-    margin-left: 15px;
-  
-    fill: #afb1b8;
-  }
-  
 
-
-  
-
-@media screen and (max-width: 480px) {
-  .client-contaner {
-    display: flex;
-    margin-bottom: 30px;
-    max-width: 480px;
-  }
-  .klients {
-    display: inline-block;
-  }
+.clients{
+  margin-bottom: 94px;
+  margin-left: 30px;
+  margin-right: 30px;
 }

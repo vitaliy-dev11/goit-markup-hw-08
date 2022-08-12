@@ -285,3 +285,32 @@ $logoFont: "Raleway";
   color: #212121;
   margin-top: 40px;
 }
+
+$primary-text-color: #757575;
+$title-text-color: #212121;
+$dark-background-text: #ffffff;
+$accent-color: #2196f3;
+$secondary-background: #2f303a;
+$primary-background-color: #ffffff;
+$duration: 250ms;
+$timing-fuction: cubic-bezier(0.4, 0, 0.2, 1);
+
+%centredFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

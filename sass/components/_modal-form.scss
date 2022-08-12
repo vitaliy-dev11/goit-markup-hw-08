@@ -25,10 +25,55 @@
   
 }
 
+@media screen and (min-width: 1200px){
+  .f-input{
+    width: 404px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    
+  }
+
+  .s-input{
+    width: 448px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+  }
+
+  .f-form{
+    position: relative;
+  }
+
+  .f-modal-svg {
+    position: absolute;
+    top: 13px;
+    left: 55px;
+    vertical-align: middle;
+    transition-property: fill;
+  }
+  .s-modal-svg {
+    position: absolute;
+    top: 16px;
+    left: 55px;
+    vertical-align: middle;
+  }
+  .t-modal-svg {
+    position: absolute;
+    top: 13px;
+    left: 55px;
+    vertical-align: middle;
+  }
+  
+
+}
+
 @media screen and (max-width: 480px){
   .f-input{
-  width: 100%;
-  
+  width: 85%;
+  padding-left: 40px;
  }
  
  .f-form {
@@ -37,8 +82,27 @@
 }
 
 .s-input{
-  width: 100%;
-  
+  width: 93%;
+  padding-left: 15px;
+}
+.f-modal-svg {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  vertical-align: middle;
+  transition-property: fill;
+}
+.s-modal-svg {
+  position: absolute;
+  top: 19px;
+  left: 20px;
+  vertical-align: middle;
+}
+.t-modal-svg {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  vertical-align: middle;
 }
 }
 .f-input:focus {
@@ -102,25 +166,25 @@
 .form-input {
   margin-left: 40px;
 }
-.f-modal-svg {
-  position: absolute;
-  top: 17px;
-  left: 42px;
-  vertical-align: middle;
-  transition-property: fill;
-}
-.s-modal-svg {
-  position: absolute;
-  top: 19px;
-  left: 42px;
-  vertical-align: middle;
-}
-.t-modal-svg {
-  position: absolute;
-  top: 17px;
-  left: 42px;
-  vertical-align: middle;
-}
+// .f-modal-svg {
+//   position: absolute;
+//   top: 17px;
+//   left: 42px;
+//   vertical-align: middle;
+//   transition-property: fill;
+// }
+// .s-modal-svg {
+//   position: absolute;
+//   top: 19px;
+//   left: 42px;
+//   vertical-align: middle;
+// }
+// .t-modal-svg {
+//   position: absolute;
+//   top: 17px;
+//   left: 42px;
+//   vertical-align: middle;
+// }
 
 
   .f-form{

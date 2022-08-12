@@ -54,12 +54,16 @@
 
 
 
-.list {
+.list-navigation {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   display: flex;
+}
+
+.list{
+  display: block;
 }
 .studio-item {
   margin-left: 90px;
@@ -118,6 +122,7 @@
   padding-bottom: 26px;
   padding-top: 30px;
   border-bottom: 1px solid #eeeeee;
+  position: relative;
 }
 .warning-first {
   display: flex;
