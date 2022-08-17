@@ -2556,7 +2556,7 @@ ul {
 
 .modal-form__checkbox:checked + .modal-form__policy-box {
   background-color: #2196f3;
-  background-image: url(/images/Vector.svg);
+  background-image: url(./images/Vector.svg);
   background-size: contain;
   background-origin: border-box;
   border-color: #2196f3;
