@@ -160,6 +160,38 @@ letter-spacing: 0.03em;
   }
 }
 
+@media screen and (max-width: 480px){
+  .product-text {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  
+  letter-spacing: 0.03em;
+    position: absolute;
+    transform: translateY(100%);
+    transition: transform $duration $timing-fuction;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    font-size: 18px;
+    line-height: 1.556;
+    letter-spacing: 0.03em;
+    color: $dark-background-text;
+    background-color: rgba(33, 150, 243, 0.9);
+    opacity: 1;
+  
+    .card-set__link:hover &,
+    .card-set__link:focus & {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
 
 
 
