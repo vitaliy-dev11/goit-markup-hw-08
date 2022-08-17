@@ -25,7 +25,7 @@
           <span class="f-logo">Web</span><span class="s-logo">Studio</span>
         </p>
         <div class="menu">
-        <button class="menu-button is-open" type="button" aria-expanded="false" data-menu-button>
+        <button class="menu-button .is-open" type="button" aria-expanded="false" data-menu-button>
           <svg class="menu-svg">
             <use class="icon_menu"  href="./images/symbol-defs.svg#icon-menu_40px"></use>
             <use class="icon_cross" href="./images/symbol-defs.svg#icon-close_40px-1"></use>
@@ -33,7 +33,7 @@
         </button>
       </div>
         <!--  -->
-        <div class="menu_container is-open " data-menu>
+        <div class="menu_container " data-menu>
           <ul class="list">
             <li class="menu_studio-item">
               <a class="menu_studio-trade" href="">Студия</a>
@@ -919,7 +919,7 @@
         ><span class="s-footlogo">Studio</span>
       </p>
 
-      <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+      <address class="address"> <a href="https://goo.gl/maps/xPfi8tbp2PGUQbh47" class="address"> г. Киев, пр-т Леси Украинки, 26</a></address>
 
       <ul class="footer-items">
         <li>
@@ -1019,11 +1019,28 @@
           <label class="first-label" for="koment">Комментарий</label>
           <form  class="f-form" action=""><input  class="s-input" type="E-mail" name="E-mail" id="koment" placeholder="Введите текст" ></form>
           
-         <div class="modal-policy">
+         <!-- <div class="modal-policy">
             <label class="policy-text">
               <input type="checkbox" name="policy" class="checkbox" />
               <span class="policy-box"></span>Соглашаюсь с рассылкой и принимаю
               &nbsp;<a href="" class="policy-link" target="_blank"
+                >Условия договора</a
+              ></label
+            >
+          </div> -->
+          <div class="modal-form__policy">
+            <label class="modal-form__policy-text">
+              <input
+                type="checkbox"
+                name="policy"
+                class="modal-form__checkbox hidden"
+              />
+              <span class="modal-form__policy-box"></span>  Соглашаюсь с рассылкой
+              и принимаю &nbsp;
+                <a
+                href=""
+                class="modal-form__policy-link"
+                target="_blank"
                 >Условия договора</a
               ></label
             >
