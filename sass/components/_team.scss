@@ -1,500 +1,559 @@
-.komand-subjekt {
-  font-family: "Roboto";
+
+
+
+// @media screen and (max-width: 768px) {
+  .adaptive-images{
+   width: 100%;
+  }
+// }
+
+// // portfolio
+
+// .first-warning {
+//   display: flex;
+//   justify-content: center;
+//   margin-bottom: 30px;
+// }
+
+// .portfolio-second-warning {
+//   display: flex;
+//   justify-content: center;
+//   margin-bottom: 30px;
+// }
+
+// .portfolio-third-warning {
+//   display: flex;
+//   justify-content: center;
+//   margin-bottom: 94px;
+// }
+// @media screen and (max-Width: 768px){
+//   .first-warning{
+//     display: block;
+//   }
+  
+//   .portfolio-second-warning{
+//     display: block;
+//   }
+
+//   .portfolio-third-warning{
+//     display: block;
+//   }
+// }
+
+ 
+// .tehno-items {
+//   margin-right: 30px;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+// }
+// .tehno-items:hover {
+//   background: #ffffff;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+//   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//     1px 4px 6px rgba(0, 0, 0, 0.16);
+// }
+// .poster-items {
+//   margin-right: 30px;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+// }
+
+// .poster-items:hover {
+//   background: #ffffff;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+//   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//     1px 4px 6px rgba(0, 0, 0, 0.16);
+// }
+// .sea-items {
+//   margin-right: 0;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+// }
+// .sea-items:hover {
+//   background: #ffffff;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+//   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//     1px 4px 6px rgba(0, 0, 0, 0.16);
+// }
+// .prime-items {
+//   margin-right: px;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+// }
+// .prime-items:hover {
+//   background: #ffffff;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+//   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//     1px 4px 6px rgba(0, 0, 0, 0.16);
+// }
+// .boxes-items {
+//   margin-left: 30px;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+// }
+// .boxes-items:hover {
+//   background: #ffffff;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+//   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//     1px 4px 6px rgba(0, 0, 0, 0.16);
+// }
+// .inspiration-items {
+//   margin-right: 0;
+//   margin-left: 30px;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+// }
+// .inspiration-items:hover {
+//   background: #ffffff;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+//   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//     1px 4px 6px rgba(0, 0, 0, 0.16);
+// }
+// .limited-items {
+//   margin-right: 30px;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+// }
+// .limited-items:hover {
+//   background: #ffffff;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+//   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//     1px 4px 6px rgba(0, 0, 0, 0.16);
+// }
+// .lab-items {
+//   margin-right: 30px;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+// }
+// .lab-items:hover {
+//   background: #ffffff;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+//   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//     1px 4px 6px rgba(0, 0, 0, 0.16);
+// }
+// .groving-items {
+//   margin-right: 0px;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+//   position: relative;
+// }
+// .groving-items:hover {
+//   background: #ffffff;
+//   border: 1px solid #eeeeee;
+//   box-sizing: border-box;
+//   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//     1px 4px 6px rgba(0, 0, 0, 0.16);
+// }
+
+// // items
+
+// .teh-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 36px;
+//   margin-top: 20px;
+//   margin-bottom: 8px;
+//   margin-left: 24px;
+// }
+
+// .veb-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 30px;
+//   margin-bottom: 20px;
+//   margin-left: 24px;
+// }
+// .dizain-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 30px;
+//   margin-bottom: 20px;
+//   margin-left: 24px;
+// }
+// .poster-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 36px;
+//   margin-top: 20px;
+//   margin-bottom: 8px;
+//   margin-left: 24px;
+// }
+// .restoran-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 36px;
+//   margin-top: 20px;
+//   margin-bottom: 8px;
+//   margin-left: 24px;
+// }
+// .sea-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 30px;
+//   margin-bottom: 20px;
+//   margin-left: 24px;
+// }
+// .progekt-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 36px;
+//   margin-top: 20px;
+//   margin-bottom: 8px;
+//   margin-left: 24px;
+// }
+// .marketing-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 30px;
+//   margin-bottom: 20px;
+//   margin-left: 24px;
+// }
+// .boxes-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 36px;
+//   margin-top: 20px;
+//   margin-bottom: 8px;
+//   margin-left: 24px;
+// }
+// .prilogenie-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 30px;
+//   margin-bottom: 20px;
+//   margin-left: 24px;
+// }
+// .inspiration-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 36px;
+//   margin-top: 20px;
+//   margin-bottom: 8px;
+//   margin-left: 24px;
+// }
+// .sait-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 30px;
+//   margin-bottom: 20px;
+//   margin-left: 24px;
+// }
+// .limited-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 36px;
+//   margin-top: 20px;
+//   margin-bottom: 8px;
+//   margin-left: 24px;
+// }
+// .edition-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 30px;
+//   margin-bottom: 20px;
+//   margin-left: 24px;
+// }
+// .lab-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 36px;
+//   margin-top: 20px;
+//   margin-bottom: 8px;
+//   margin-left: 24px;
+// }
+// .la-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 30px;
+//   margin-bottom: 20px;
+//   margin-left: 24px;
+// }
+// .groving-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 36px;
+//   margin-top: 20px;
+//   margin-bottom: 8px;
+//   margin-left: 24px;
+// }
+// .business-item {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 30px;
+//   margin-bottom: 20px;
+//   margin-left: 24px;
+// }
+
+// @media screen and (max-width: 768px){
+//   .ninth-img,
+//   .eighth-img,
+//   .seventh-img,
+//   .sixth-img,
+//   .fivth-img,
+//   .fourth-img,
+//   .third-img,
+//   .second-img,
+//   .firs-img{
+//     width: 100%;
+//     height: auto;
+//   }
+
+//   .tehno-items,
+//   .poster-items,
+//   .lab-items,
+//   .limited-items
+//   {
+//     margin-right: 0px;
+//     margin-bottom: 30px;
+//   }
+
+  
+//   .boxes-items,
+//   .inspiration-items
+//   {
+//     margin-left: 0px;
+//     margin-bottom: 30px;
+//   }
+  
+//   .media_images{
+//     padding-left: 15px;
+//     padding-right: 15px;
+//   }
+
+//   .groving-items{
+//     margin-bottom: 60px;
+    
+//   }
+//  }
+
+
+
+//  @media screen and (max-width: 1200px){
+//   .tablet_team{
+//     display: flex;
+//    }
+
+//    .komand-warning {
+//     display: block;
+    
+//   }
+
+//   .second-section{
+//     height: 1285px;
+//   }
+
+//   .Ermakov-items{
+//     display: flex;
+//     width: 270px;
+//     -webkit-box-pack: center;
+//     text-align: center;
+//     justify-content: center;
+//   }
+
+//   .svg-warning{
+//     width: 270px;
+//   }
+
+   
+//  }
+
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team__list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+}
+
+.team__item {
+  width: 100%;
+
+  &:not(:first-child) {
+    margin-top: 30px;
+  }
+
+  background-color: $primary-background-color;
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 60px) / 2);
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 120px) / 4);
+  }
+}
+
+.team__title {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
+}
+
+.team__content {
+  padding: 30px 32px;
+}
+
+.team__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.team__position {
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: $primary-text-color;
+  margin-bottom: 16px;
+}
+
+.sl__list {
+  display: flex;
+  justify-content: center;
+  fill: #afb1b8;
+}
+
+.sl__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.sl__logo {
+  width: 20px;
+  height: 20px;
+  fill: inherit;
+}
+
+.sl__link {
+  @extend %centredFlex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  transition-property: background-color, fill;
+  transition-duration: $duration;
+  transition-timing-function: $timing-fuction;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    fill: #fff;
+  }
+}
+
+
+picture{
+  width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  .container{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+
+.team__position{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+
+.team__name{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+}
+
+.team__title{
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  margin-top: 188px;
-  padding-top: 94px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-.svg-warning {
-  display: flex;
-  justify-content: center;
-}
-.komand-svg {
-  background: $secondarytextColor;
-}
-.komand-svg {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: $secondarytextColor;
-  margin-bottom: 42px;
-  margin-top: 28px;
-  margin-left: 13px;
-  margin-right: 10px;
-  fill: $cardBorder;
-}
-
-.second-section {
-  background-color: $backgraundColor;
-  height: 708px;
-}
-
-@media screen and (max-width: 480px) {
-  .second-section {
-    background-color: $backgraundColor;
-    height: 100%;
-  }
-}
-
-.name-item {
-  color: $primarytradeColor;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-
-  line-height: 19px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-.work-item {
-  color: #757575;;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-}
-.komand-warning {
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  text-align: center;
-}
-@media screen and (max-width: 480px) {
-  .komand-warning {
-    display: block;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-.img-item {
-  background-color: $secondarytextColor;
-  border-radius: 4px;
-  margin-bottom: 94px;
-  box-shadow: $comandFilter;
-}
-
-@media screen and (max-width: 480px) {
-  .img-item {
-    margin-bottom: 30px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .img-item {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .Demianenko-img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .Repina-img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .Tarasow-img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .Ermakow-img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .Ermakov-items {
-    padding-bottom: 30px;
-  }
-}
-
-
-
-
-
-@media screen and (max-width: 480px) {
-  .adaptive-images{
-   width: 100%;
-  }
-}
-
-// portfolio
-
-.first-warning {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.portfolio-second-warning {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.portfolio-third-warning {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 94px;
-}
-@media screen and (max-Width: 480px){
-  .first-warning{
-    display: block;
-  }
-  
-  .portfolio-second-warning{
-    display: block;
-  }
-
-  .portfolio-third-warning{
-    display: block;
-  }
-}
-
  
-.tehno-items {
-  margin-right: 30px;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.tehno-items:hover {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.poster-items {
-  margin-right: 30px;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
+
 }
 
-.poster-items:hover {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.sea-items {
-  margin-right: 0;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.sea-items:hover {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.prime-items {
-  margin-right: px;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.prime-items:hover {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.boxes-items {
-  margin-left: 30px;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.boxes-items:hover {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.inspiration-items {
-  margin-right: 0;
-  margin-left: 30px;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.inspiration-items:hover {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.limited-items {
-  margin-right: 30px;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.limited-items:hover {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.lab-items {
-  margin-right: 30px;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.lab-items:hover {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.groving-items {
-  margin-right: 0px;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  position: relative;
-}
-.groving-items:hover {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+.team{
+  padding-top: 94px;
+ padding-bottom: 94px;
 }
 
-// items
+.portfolio_section{
+  padding-left: 15px;
 
-.teh-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  margin-top: 20px;
-  margin-bottom: 8px;
-  margin-left: 24px;
-}
+  padding-right: 15px;
 
-.veb-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 20px;
-  margin-left: 24px;
+  padding-bottom: 60px;
 }
-.dizain-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-}
-.poster-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  margin-top: 20px;
-  margin-bottom: 8px;
-  margin-left: 24px;
-}
-.restoran-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  margin-top: 20px;
-  margin-bottom: 8px;
-  margin-left: 24px;
-}
-.sea-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-}
-.progekt-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  margin-top: 20px;
-  margin-bottom: 8px;
-  margin-left: 24px;
-}
-.marketing-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-}
-.boxes-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  margin-top: 20px;
-  margin-bottom: 8px;
-  margin-left: 24px;
-}
-.prilogenie-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-}
-.inspiration-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  margin-top: 20px;
-  margin-bottom: 8px;
-  margin-left: 24px;
-}
-.sait-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-}
-.limited-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  margin-top: 20px;
-  margin-bottom: 8px;
-  margin-left: 24px;
-}
-.edition-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-}
-.lab-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  margin-top: 20px;
-  margin-bottom: 8px;
-  margin-left: 24px;
-}
-.la-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-}
-.groving-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  margin-top: 20px;
-  margin-bottom: 8px;
-  margin-left: 24px;
-}
-.business-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-}
-
-@media screen and (max-width: 480px){
-  .ninth-img,
-  .eighth-img,
-  .seventh-img,
-  .sixth-img,
-  .fivth-img,
-  .fourth-img,
-  .third-img,
-  .second-img,
-  .firs-img{
-    width: 100%;
-    height: auto;
-  }
-
-  .tehno-items,
-  .poster-items,
-  .lab-items,
-  .limited-items
-  {
-    margin-right: 0px;
-    margin-bottom: 30px;
-  }
-
-  
-  .boxes-items,
-  .inspiration-items
-  {
-    margin-left: 0px;
-    margin-bottom: 30px;
-  }
-  
-  .media_images{
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .groving-items{
-    margin-bottom: 60px;
-    
-  }
- }

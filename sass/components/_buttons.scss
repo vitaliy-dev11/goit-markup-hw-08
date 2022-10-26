@@ -18,7 +18,7 @@
   padding-left: 20px;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
   .foot-button{
     margin-top: 20px;
     display: block;
@@ -216,8 +216,27 @@
   }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
   .button-items{
     display: none;
   }
 }
+
+
+@media screen and (max-width: 1200px){
+
+  .button_span{
+    display: none;
+  }
+
+  .button_items{
+    display: flex;
+  }
+
+  .second_button_items{
+    display: flex;
+  }
+}
+
+
+

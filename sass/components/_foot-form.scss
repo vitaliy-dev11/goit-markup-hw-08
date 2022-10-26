@@ -1,55 +1,82 @@
-.foot-input {
-  background-color: #2f303a;
-  border: 1px solid #ffffff;
-  border-radius: 3px;
-  width: 358px;
-  height: 50px;
-  padding-left: 20px;
-  color: #ffffff;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  outline: none;
-}
 
 
-@media screen and (max-width: 480px){
-  .foot-input{
-    width: 88%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+.subscribe {
+  width: 100%;
+  // margin-top: 60px;
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+    text-align: left;
   }
 }
-.inp-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
+
+.subscribe__title {
+  font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: $secondarytextColor;
-  margin-bottom: 20px;
+  color: $dark-background-text;
 }
 
-@media screen and (max-width: 480px){
-  .inp-text{
-    margin-top: 60px;
-    text-align: center;
+.subscribe__flex-container {
+  margin-top: 20px;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
   }
 }
 
-.foot-form {
-  margin-left: 93px;
+.subscribe__input {
+  cursor: text;
+  width: 100%;
+  height: 20px;
+  padding: 15px 16px;
+  color: $dark-background-text;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin-right: 12px;
+  }
 }
 
-@media screen and (max-width: 480px){
-  .foot-form {
-    margin-left: 0px;
-    
+.subscribe__button {
+  @extend %centredFlex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: $accent-color;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: $dark-background-text;
+  border: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
   }
+}
+
+.subscribe__icon {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  margin-left: 10px;
 }

@@ -4,7 +4,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .media-header {
     display: none;
   }
@@ -12,12 +12,62 @@
   
 }
 
-.second-container {
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
-  
+@media screen and (min-width: 769px) {
+  .second-container{
+    margin-top: 0px;
+    display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
 }
+
+@media screen and (max-width: 1200px) {
+ 
+    .second-container {
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+      justify-content: space-around;
+      
+    }
+
+   .studio-item{
+    margin-right: 50px;
+   }
+
+   .portfolio-item{
+    margin-right: 50px;
+   }
+   .kontakt-item{
+    margin-right: 30px;
+   }
+
+   .mail-item{
+    margin-bottom: 5px;
+   }
+   
+}
+
+@media screen and (min-width: 1200px){
+  .media-link{
+   display: flex;
+  }
+}
+
+.studio-item{
+  margin-right: 50px;
+ }
+
+ .portfolio-item{
+  margin-right: 50px;
+ }
+ .kontakt-item{
+  margin-right: 30px;
+ }
+
+
+
+
 .contaner {
   display: flex;
 }
@@ -26,12 +76,14 @@
 // portfolio
 .kontakt-items {
   display: flex;
+  justify-content: space-around;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 769px){
   .second-head_container{
     display: flex;
     align-items: center;
+    justify-content: space-around;
   }
   .portfolio-logo {
     font-family: "Raleway";
@@ -49,7 +101,7 @@
   }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
   .portfolio-logo{
     margin-left: 15px;
     font-family: "Raleway";
@@ -95,15 +147,15 @@
 .list{
   display: flex;
 }
-.studio-item {
-  margin-left: 90px;
-}
-.kontakt-item {
-  margin-right: 200px;
-}
+// .studio-item {
+//   margin-left: 90px;
+// }
+// .kontakt-item {
+//   margin-right: 200px;
+// }
 .portfolio-item {
-  margin-left: 50px;
-  margin-right: 50px;
+  // margin-left: 50px;
+  // margin-right: 50px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -133,7 +185,7 @@
 .mail-trade {
   color: #757575;
   text-decoration: none;
-  margin-right: 50px;
+  // margin-right: 50px;
 }
 
 .tel-trade {
@@ -148,7 +200,7 @@
   margin-top: 32px;
   margin-bottom: 32px;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
   .portfolio-header{
     padding-top: 16px;
     padding-bottom: 16px;
@@ -302,4 +354,9 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
+}
+
+
+.list{
+  margin-top: 30px;
 }

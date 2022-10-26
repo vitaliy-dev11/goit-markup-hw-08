@@ -7,8 +7,10 @@ body {
   
 }
 
-@media screen and (max-width){
-  
+@media screen and (max-width: 768px){
+  body{
+    max-width: 480px;
+  }
 }
 ul {
   list-style: none;

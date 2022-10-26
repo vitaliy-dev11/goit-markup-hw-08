@@ -6,10 +6,16 @@
   display: flex;
 }
 
-
-.studio-item {
-  margin-left: 90px;
+@media screen and (min-width: 769px){
+  .head-container{
+    display: flex;
+  }
 }
+
+
+// .studio-item {
+//   // margin-left: 90px;
+// }
 .studio-item :visited {
   color: $primaryColor;
 }
@@ -37,13 +43,13 @@
   border-radius: 2px;
 }
 
-.kontakt-item {
-  margin-right: 200px;
-}
+// .kontakt-item {
+//   margin-right: 100px;
+// }
 
 .portfolio-item {
-  margin-left: 50px;
-  margin-right: 50px;
+  // margin-left: 50px;
+  // margin-right: 50px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;

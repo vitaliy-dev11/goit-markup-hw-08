@@ -28,8 +28,8 @@
   margin-left: 10px;
   vertical-align: middle;
 }
-.kontakt-items .mail-link:hover,
-.kontakt-items .mail-link:focus {
+.kontakt-items_mail .mail-link:hover,
+.kontakt-items_telefone .mail-link:focus {
   color: $primaryColor;
   fill: $primaryColor;
   transition: 250ms;
@@ -38,10 +38,28 @@
 .mail-link {
   display: flex;
 }
-.mail-item {
-  // margin-top: 10px;
-}
+
 .envenlope-icon {
   margin-left: 10px;
   vertical-align: middle;
+}
+
+@media screen and (max-width: 1200px){
+  .media-link{
+    margin-top: 30px;
+    display: block;
+  }
+
+  
+}
+
+.kontakt-items{
+  display: block;
+}
+
+
+@media screen and (min-width: 1200px){
+  .media-link{
+    margin-top: 30px;
+  }
 }

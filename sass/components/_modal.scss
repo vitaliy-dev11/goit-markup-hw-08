@@ -31,7 +31,7 @@
   
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
   .modal {
   min-width: 70%;
   padding-left: 40px;
@@ -66,4 +66,9 @@
   width: 11px;
   height: 11px;
   vertical-align: middle;
+}
+
+
+.policy-text{
+  opacity: 0;
 }
