@@ -1237,6 +1237,10 @@ ul {
   width: 100%;
 }
 
+.adaptive-images_portfolio {
+  width: 100%;
+}
+
 .team {
   background-color: #f5f4fa;
 }
@@ -1398,6 +1402,21 @@ picture {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .adaptive-images_portfolio {
+    width: 100%;
+    max-width: 354px;
+  }
+  .product-thumb {
+    width: 100%;
+    max-width: 354px;
+  }
+  .card-set__link {
+    width: 100%;
+    max-width: 354px;
+  }
 }
 
 .klient-title {
@@ -2475,7 +2494,7 @@ picture {
   height: 70px;
   background-color: #2f303a;
   position: absolute;
-  top: 1610px;
+  top: 1645px;
   opacity: 0.8;
   -webkit-transition: 250ms;
   transition: 250ms;
