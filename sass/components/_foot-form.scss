@@ -31,7 +31,7 @@
 
 .subscribe__input {
   cursor: text;
-  width: 100%;
+  width: 80%;
   height: 20px;
   padding: 15px 16px;
   color: $dark-background-text;
@@ -79,4 +79,14 @@
   height: 24px;
   fill: #fff;
   margin-left: 10px;
+}
+
+@media screen and  (max-width: 768px){
+  
+  .subscribe__input{
+  margin-left: 15px;
+
+  margin-right: 15px;
+  }
+ 
 }
