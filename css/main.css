@@ -1263,6 +1263,7 @@ ul {
 }
 
 .team {
+  margin-top: 30px;
   background-color: #f5f4fa;
 }
 
@@ -2535,7 +2536,7 @@ picture {
   height: 70px;
   background-color: #2f303a;
   position: absolute;
-  top: 1645px;
+  top: 155px;
   opacity: 0.8;
   -webkit-transition: 250ms;
   transition: 250ms;
@@ -2556,6 +2557,14 @@ picture {
   opacity: 1;
   color: #ffffff;
   padding-top: 27px;
+}
+
+.doing {
+  position: relative;
+}
+
+.work-items {
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {

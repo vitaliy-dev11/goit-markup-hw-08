@@ -3,7 +3,7 @@
   height: 70px;
   background-color: rgb(47, 48, 58);
   position: absolute;
-  top: 1645px;
+  top: 155px;
   opacity: 0.8;
   transition: $Transition;
   overflow: hidden;
@@ -22,6 +22,15 @@
   opacity: 1;
   color: $secondarytextColor;
   padding-top: 27px;
+}
+
+
+.doing{
+  position: relative;
+}
+
+.work-items{
+   position: relative;
 }
 
 
