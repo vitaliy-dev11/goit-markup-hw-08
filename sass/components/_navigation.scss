@@ -16,7 +16,11 @@
 // .studio-item {
 //   // margin-left: 90px;
 // }
-.studio-item :visited {
+.studio-trade:visited {
+  color: $primaryColor;
+}
+
+.portfolio-trade:visited{
   color: $primaryColor;
 }
 .studio-trade {

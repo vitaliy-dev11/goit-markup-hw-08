@@ -237,7 +237,11 @@
   }
 }
 
-.studio-item :visited {
+.studio-trade:visited {
+  color: #2196f3;
+}
+
+.portfolio-trade:visited {
   color: #2196f3;
 }
 
@@ -1439,6 +1443,13 @@ picture {
 @media screen and (max-width: 768px) {
   .portfolio_section {
     padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
